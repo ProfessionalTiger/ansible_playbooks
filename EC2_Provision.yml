@@ -1,0 +1,12 @@
+provider:
+- aws:
+  - access_key: "AKIA463F3FYCK33B7QP7"
+    secret_key: "irpA7S27QJiMgPbksSZmg25V+46jKz4OrqF9QlJO"
+    profile: default
+    region: us-east-1
+    
+resource:
+- aws_instance:
+  - example:
+    - ami: ami-0b898040803850657
+      instance_type: t2.micro
